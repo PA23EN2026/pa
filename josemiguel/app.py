@@ -1,4 +1,4 @@
 print("Soy josemiguel :)")
 
-class juego:
+class Juego:
     pass
