@@ -1,1 +1,0 @@
-print("Nombre: Myriam Jarensi Rodríguez Reyna")
