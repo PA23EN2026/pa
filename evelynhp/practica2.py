@@ -15,7 +15,19 @@ class MI_clase:
         else: 
             return self.__num3
         
+    def menor(self):
+        if self.__num1 <= self.__num2 and self.__num1 <= self.__num3:
+            return self.__num1
+        elif self.__num2 <= self.__num1 and self.__num2 <= self.__num3:
+            return self.__num2
+        else: 
+            return self.__num3 
     
+    def iguales(self):
+        if self.__num1 == self.__num2 and self.__num2 == self.__num3:
+            return True
+        else:
+            return False
     
   
         
