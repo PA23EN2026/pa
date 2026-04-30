@@ -28,6 +28,11 @@ class MI_clase:
             return True
         else:
             return False 
+    
+    def concatenar(self):
+        return str(self.__num1) + str(self.__num2) + str(self.__num3)
+    
+    
         
         
         
