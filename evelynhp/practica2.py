@@ -35,6 +35,7 @@ class MI_clase:
 objeto = MI_clase(5,4,8) 
 print(f"La suma es: ", objeto.sumar())  
 print(f"El numero mayor es: ", objeto.mayor())
+print(f"El numero menor es: ", objeto.menor())
     
     
         
