@@ -1,9 +1,2 @@
-print("Soy josemiguel :)")
-
-class Juego:
+class mi_clase:
     pass
-
-for i in range(10):
-    print("hola")
-
-print("hola")
