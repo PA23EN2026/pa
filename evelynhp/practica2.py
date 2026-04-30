@@ -36,6 +36,9 @@ objeto = MI_clase(5,4,8)
 print(f"La suma es: ", objeto.sumar())  
 print(f"El numero mayor es: ", objeto.mayor())
 print(f"El numero menor es: ", objeto.menor())
+print(f"Son iguales: ", objeto.iguales())
+print(f"Los numeros concatenados son: ", objeto.concatenar())
+
     
     
         
