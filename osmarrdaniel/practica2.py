@@ -21,4 +21,8 @@ class Mi_Clase:
         elif self.__num2 <= self.__num1 and self.__num2 <= self.__num3:
             return self.__num2
         else:
-            return self.__num3        
+            return self.__num3 
+        
+    def iguales(self):
+        return self.__num1 == self.__num2 == self.__num3
+               
