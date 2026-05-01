@@ -36,3 +36,5 @@ class Mi_clase:
 num1=int(input("Ingresa un numero"))
 num2=int(input("Ingresa un numero"))
 num3=int(input("Ingresa un numero"))
+
+objeto=Mi_clase(num1,num2,num3)
