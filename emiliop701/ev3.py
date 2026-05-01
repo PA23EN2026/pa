@@ -38,3 +38,9 @@ num2=int(input("Ingresa un numero"))
 num3=int(input("Ingresa un numero"))
 
 objeto=Mi_clase(num1,num2,num3)
+
+print(objeto.sumar())
+objeto.mayor()
+objeto.menor()
+print(objeto.iguales())
+print(objeto.concatenar())
