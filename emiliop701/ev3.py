@@ -27,3 +27,7 @@ def menor(self):
 def iguales(self):
     result=(self.__num1==self.__num2) and (self.__num2==self.__num3)
     return result 
+
+def concatenar(self):
+    texto=str(self.__num1)+str(self.__num2)+str(self.__num3)
+    return texto 
