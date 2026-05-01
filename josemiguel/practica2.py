@@ -6,3 +6,6 @@ class Mi_Clase:
 
     def sumar(self):
         return self.__num1 + self.__num2 + self.__num3
+    
+    def mayor(self):
+        return (self.__num1, self.__num2, self.__num3)
