@@ -11,21 +11,24 @@ class Mi_Clase:
     def mayor(self):
         if self.__num1 > self.__num2 and self.__num1 > self.__num3:
             return self.__num1
-
         elif self.__num2 > self.__num3:
             return self.__num2
-        
         else:
             return self.__num3
         
     def menor (self):
         if self.__num1 < self.__num2 and self.__num1 < self.__num3:
             return self.__num1
-        
         elif self.__num2 < self.__num3:
             return self.__num2
-        
         else:
             return self.__num3
     
+    def iguales (self):
+        Igualdad = False
+
+        if self.__num1 == self.__num2 and self.__num2 == self.__num3:
+            Igualdad = True
+
+        return Igualdad
     
