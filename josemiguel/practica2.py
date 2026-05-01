@@ -9,3 +9,6 @@ class Mi_Clase:
     
     def mayor(self):
         return (self.__num1, self.__num2, self.__num3)
+
+    def menor(self):
+        return min(self.__num1, self.__num2, self.__num3)
