@@ -23,3 +23,7 @@ def menor(self):
         print(f"El numero menor es {self.__num2}")
     else:
         print(f"El numero menor es {self.__num3}")
+
+def iguales(self):
+    result=(self.__num1==self.__num2) and (self.__num2==self.__num3)
+    return result 
