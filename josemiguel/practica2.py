@@ -16,7 +16,7 @@ class Mi_Clase:
         return mayor
 
     def menor(self):
-        return min(self.__num1, self.__num2, self.__num3)
+        menor = self.__num1
     
     def iguales(self):
         return self.__num1 == self.__num2 == self.__num3
