@@ -28,4 +28,10 @@ class Mi_Clase:
     
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
-               
+    
+objeto = Mi_Clase(10,22,30)
+print(f"La suma de los numeros es: {objeto.sumar()}")
+print(f"El numero mayor es: {objeto.mayor()}")
+print(f"El numero menor es: {objeto.menor()}")
+print(f"¿Son iguales?: {objeto.iguales()}")
+print(f"Concatenar: {objeto.concatenar()}")               
