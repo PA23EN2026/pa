@@ -55,6 +55,14 @@ class Mi_Clase:
     @num2.setter
     def num2(self,nuevonum2):
         return self.__num2 == nuevonum2
+    
+    @property
+    def num3 (self):
+        return self.__num1
+    
+    @num3.setter
+    def num3(self,nuevonum3):
+        return self.__num3 == nuevonum3
 
 
 objetosuma = Mi_Clase(1,2,3)
