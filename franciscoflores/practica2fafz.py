@@ -29,3 +29,9 @@ class Mi_Clase:
     def concatenar(self):
         cadena = str(self.__num1) + str(self.__num2) + str(self.__num3)
         return cadena
+
+n1 = int(input("Ingresa el primer número: "))
+n2 = int(input("Ingresa el segundo número: "))
+n3 = int(input("Ingresa el tercer número: "))
+
+objeto = Mi_Clase(n1, n2, n3)
