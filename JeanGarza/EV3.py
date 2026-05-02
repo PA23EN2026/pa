@@ -44,6 +44,11 @@ class Mi_Clase:
     def num1 (self):
         return self.__num1
     
+    @num1.setter
+    def num1(self,nuevonum):
+        return self.__num1 == nuevonum
+    
+    
 
 
 objetosuma = Mi_Clase(1,2,3)
@@ -59,3 +64,4 @@ objeto_igual_F = Mi_Clase(1,2,3)
 
 objeto_igual_T.iguales()
 objeto_igual_F.iguales()
+
