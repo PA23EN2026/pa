@@ -29,18 +29,17 @@ class Mi_Clase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
-obj = Mi_Clase(10, 20, 30)
-print("Suma:", obj.sumar())
-print("Mayor:", obj.mayor())
-print("Menor:", obj.menor())
-print("Iguales:", obj.iguales())
-print("Concatenar:", obj.concatenar())
-
 #PRUEBA DE COMO SE VERIA CON UN MENU INTEGRADO
 
 num1 = int(input("Ingresa el primer número: "))
 num2 = int(input("Ingresa el segundo número: "))
 num3 = int(input("Ingresa el tercer número: "))
 
+obj = Mi_Clase(num1, num2, num3)
 
+print("n1 Sumar")
+print("n2 Mayor")
+print("n3 Menor")
+print("n4 Iguales")
+print("n5 Concatenar")
 
