@@ -6,49 +6,50 @@ class Mi_Clase:
 
 
     def get_num1(self):
-        return self.num1
+        return self.__num1
 
     def get_num2(self):
-        return self.num2
+        return self.__num2
 
     def get_num3(self):
-        return self.num3
+        return self.__num3
 
     def set_num1(self, valor):
-        self.num1 = valor
+        self.__num1 = valor
 
     def set_num2(self, valor):
-        self.num2 = valor
+        self.___num2 = valor
 
     def set_num3(self, valor):
-        self.num3 = valor
+        self.__num3 = valor
 
     def suma(self):
-        return self.num1 + self.num2 + self.num3
+        return self.__num1 + self.__num2 + self.__num3
 
 
     def nummayor(self):
-        if self.num1 >= self.num2 and self.num1 >= self.num3:
-            return self.num1
-        elif self.num2 >= self.num1 and self.num2 >= self.num3:
-            return self.num2
+        if self.__num1 >= self.__num2 and self.__num1 >= self.__num3:
+            return self.__num1
+        elif self.__num2 >= self.__num1 and self.__num2 >= self.__num3:
+            return self.__num2
         else:
-            return self.num3
+            return self.__num3
 
 
 
     def  num_menor(self):
-        if self.num1 <= self.num2 and self.num1 <= self.num3:
-            return self.num1
-        elif self.num2 <= self.num1 and self.num2 <= self.num3:
-            return self.num2
+        if self.__num1 <= self.__num2 and self.__num1 <= self.__num3:
+            return self.__num1
+        elif self.__num2 <= self.__num1 and self.__num2 <= self.__num3:
+            return self.__num2
         else:
             return self.__num3
 
 
     def num_iguales(self):
-        pass
+        if self.num1 == self.num2 and self
 
 
     def concatenar(self):
         pass
+    
