@@ -35,8 +35,40 @@ num3 = int(input("Ingrese el tercer número: "))
 
 obj = Mi_Clase(num1, num2, num3)
 
-print("Suma:", obj.sumar())
-print("Mayor:", obj.mayor())
-print("Menor:", obj.menor())
-print("Iguales:", obj.iguales())
-print("Concatenar:", obj.concatenar())
+respuestas = []
+
+while True:
+    print("\n1. Sumar")
+    print("2. Mayor")
+    print("3. Menor")
+    print("4. Iguales")
+    print("5. Concatenar")
+    print("6. Salir")
+
+    opcion = input("Opcion: ")
+
+    if opcion == "1":
+        resultado = obj.sumar()
+        respuestas.append("Suma: " + str(resultado))
+        print("Suma:", resultado)
+    elif opcion == "2":
+        resultado = obj.mayor()
+        respuestas.append("Mayor: " + str(resultado))
+        print("Mayor:", resultado)
+    elif opcion == "3":
+        resultado = obj.menor()
+        respuestas.append("Menor: " + str(resultado))
+        print("Menor:", resultado)
+    elif opcion == "4":
+        resultado = obj.iguales()
+        respuestas.append("Iguales: " + str(resultado))
+        print("Iguales:", resultado)
+    elif opcion == "5":
+        resultado = obj.concatenar()
+        respuestas.append("Concatenar: " + str(resultado))
+        print("Concatenar:", resultado)
+    elif opcion == "6":
+        print("\nRespuestas:")
+        for i in respuestas:
+            print(i)
+        break
