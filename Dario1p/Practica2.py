@@ -32,3 +32,5 @@ class Mi_Clase:
 
         return Igualdad
     
+    def concatenar(self):
+        return (f"{self.__num1}{self.__num2}{self.__num3}")
