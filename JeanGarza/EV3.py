@@ -39,7 +39,7 @@ class Mi_Clase:
         else:
             print(f"Son iguales: {igual}")
 
-    def cocatenar(self):
+    def concatenar(self):
         numeros = f"{self.__num1}{self.__num2}{self.__num3}"
         return numeros
 
@@ -83,14 +83,14 @@ objeto_igual_T.iguales()
 objeto_igual_F.iguales()
 
 objeto_concatenar = Mi_Clase(1,0,0)
-print(objeto_concatenar.cocatenar())
+print(objeto_concatenar.concatenar())
 
 
 objeto_concatenar.num2=2
-print(objeto_concatenar.cocatenar())
+print(objeto_concatenar.concatenar())
 
 objeto_concatenar.num3=5
-print(objeto_concatenar.cocatenar())
+print(objeto_concatenar.concatenar())
 
 print(objeto_concatenar.num1)
 print(objeto_concatenar.num2)
