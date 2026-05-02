@@ -8,15 +8,36 @@ class Mi_Clase:
         resultado = self.__num1 + self.__num2 + self.__num3
         print(f"El resultado de la suma de esos tres numero es: {resultado}")
      
+
     def mayor(self):
         if self.__num1 > self.__num2 and self.__num1 > self.__num3:
             print(f"El numero mayor es: {self.__num1}")
         
         elif self.__num2 > self.__num3:
-            print(f"El número mayor es: {self.__num2}")
+            print(f"El numero mayor es: {self.__num2}")
         
         else:
-            print(f"El número mayor es: {self.__num3}")
+            print(f"El numero mayor es: {self.__num3}")
+    
+    
+    def menor(self):
+        if self.__num1 < self.__num2 and self.__num1 < self.__num3:
+            print(f"El numero menor es: {self.__num1}")
+
+        elif self.__num2 < self.__num3:
+            print(f"El numero menor es: {self.__num2}")
+        
+        else:
+            print(f"El numero menor es: {self.__num3}")
+    
+
+    def iguales(self):
+        igual = False
+        if self.__num1 == self.__num2 and self.__num1 == self.__num3:
+            igual = True
+            print(f"Son iguales: {igual}")
+        else:
+            print(f"Son iguales: {igual}")
 
 
     @property
@@ -25,9 +46,16 @@ class Mi_Clase:
     
 
 
-objetosuma = Mi_Clase(2,5,10)
+objetosuma = Mi_Clase(1,2,3)
 objetosuma.sumar()
 print(objetosuma.num1)
 
-objetomayor = Mi_Clase(1,10,100)
-objetomayor.mayor()
+objetomayor_menor = Mi_Clase(1,10,100)
+objetomayor_menor.mayor()
+objetomayor_menor.menor()
+
+objeto_igual_T = Mi_Clase(1,1,1)
+objeto_igual_F = Mi_Clase(1,2,3)
+
+objeto_igual_T.iguales()
+objeto_igual_F.iguales()
