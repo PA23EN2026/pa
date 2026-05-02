@@ -17,6 +17,11 @@ class Mi_Clase:
 
     def menor(self):
         menor = self.__num1
+        if self.__num2 < menor:
+            menor = self.__num2
+        if self.__num3 < menor:
+            menor = self.__num3
+        return menor
     
     def iguales(self):
         return self.__num1 == self.__num2 == self.__num3
