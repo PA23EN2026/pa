@@ -8,10 +8,15 @@ class Mi_Clase:
         return self.__num1 + self.__num2 + self.__num3
     
     def mayor(self):
-        return (self.__num1, self.__num2, self.__num3)
+        mayor = self.__num1
+        if self.__num2 > mayor:
+            mayor = self.__num2
+        if self.__num3 > mayor:
+            mayor = self.__num3
+        return mayor
 
     def menor(self):
-        return min(self.__num1, self.__num2, self.__num3)
+        menor = self.__num1
     
     def iguales(self):
         return self.__num1 == self.__num2 == self.__num3
