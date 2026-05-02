@@ -35,3 +35,12 @@ print("Mayor:", obj.mayor())
 print("Menor:", obj.menor())
 print("Iguales:", obj.iguales())
 print("Concatenar:", obj.concatenar())
+
+#PRUEBA DE COMO SE VERIA CON UN MENU INTEGRADO
+
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
+num3 = int(input("Ingresa el tercer número: "))
+
+
+
