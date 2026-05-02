@@ -25,15 +25,15 @@ class Mi_Clase:
     
     def iguales(self):
         return self.__num1 == self.__num2 == self.__num3
-    
+
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
 
-num1 = int(input("Ingresa el primer número: "))
-num2 = int(input("Ingresa el segundo número: "))
-num3 = int(input("Ingresa el tercer número: "))
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+num3 = int(input("Ingrese el tercer número: "))
 
-obj = Mi_Clase(10, 20, 30)
+obj = Mi_Clase(num1, num2, num3)
 
 print("Suma:", obj.sumar())
 print("Mayor:", obj.mayor())
