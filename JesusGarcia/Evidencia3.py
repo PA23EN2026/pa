@@ -9,7 +9,16 @@ class Mi_Clase:
         self.__num3 = num3
 
     def sumar(self):
-        print("Entrando al metodo sumar")
         valores = [self.__num1, self.__num2, self.__num3]
         resultado = sum(valores)
         return resultado
+    
+    def mayor(self):
+        lista_valores = [self.__num1, self.__num2, self.__num3]
+        lista_valores.sort()
+        return lista_valores[-1] 
+
+    def menor(self):
+        lista_valores = [self.__num1, self.__num2, self.__num3]
+        lista_valores.sort()
+        return lista_valores[0]
