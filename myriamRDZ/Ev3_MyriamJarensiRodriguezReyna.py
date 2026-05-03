@@ -32,6 +32,9 @@ class Numeros:
         
         return f"Numero 1 y 2 son iguales: {igual1y2}, Numero 1 y 3 son iguales: {igual1y3}, Numero 2 y 3 son iguales: {igual2y3}, Todos son iguales: {todoigual}"
     
+    def concatenar(self):
+        resultado = str(self.numero1) + str(self.numero2) + str(self.numero3)
+        return resultado
       
     
 
