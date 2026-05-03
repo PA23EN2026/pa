@@ -22,3 +22,9 @@ class Mi_Clase:
         lista_valores = [self.__num1, self.__num2, self.__num3]
         lista_valores.sort()
         return lista_valores[0]
+    
+    def iguales(self):
+        if self.__num1 == self.__num2 and self.__num2 == self.__num3:
+            return True
+        else:
+            return False
