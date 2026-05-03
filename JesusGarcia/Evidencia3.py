@@ -31,3 +31,17 @@ class Mi_Clase:
         
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
+    
+
+
+
+
+
+print("Prueba de clase")
+prueba = Mi_Clase(7, 7, 7)
+
+print("Suma:", prueba.sumar())
+print("Mayor:", prueba.mayor())
+print("Menor:", prueba.menor())
+print("Iguales?:", prueba.iguales())
+print("Concatenar:", prueba.concatenar())
