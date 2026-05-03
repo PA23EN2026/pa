@@ -19,6 +19,6 @@ class Mi_Clase:
     def concatenar(self):
         return str(self.__num1) + str(self.__num2) + str(self.__num3)
     
-    prueba=Mi_Clase(9,11,3)
+prueba=Mi_Clase(9,11,3)
 
 
