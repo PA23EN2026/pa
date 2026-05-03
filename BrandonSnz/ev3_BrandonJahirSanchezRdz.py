@@ -18,7 +18,7 @@ class Mi_Clase:
         self.__num1 = valor
 
     def set_num2(self, valor):
-        self.___num2 = valor
+        self.__num2 = valor
 
     def set_num3(self, valor):
         self.__num3 = valor
@@ -47,7 +47,17 @@ class Mi_Clase:
 
 
     def num_iguales(self):
-        if self.num1 == self.num2 and self
+        if self.__num1 == self.__num2 == self.__num3:
+            return(f"Tres numeros iguales Numero1: {self.__num1}, Numero2: {self.__num2}, Numero3: {self.__num3} ")
+        elif self.__num1 == self.__num2:
+            return(f"Dos numeros iguales 1 y 2 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3}")
+        elif self.__num1 == self.__num3:
+            return (f"Dos numeros iguales 1 y 3 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3} ")
+        elif self.__num2 == self.__num3:
+            return (f"Dos numeros iguales 2 y 3 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3} ")
+        else:
+            return "Ningun numero es igual"
+
 
 
     def concatenar(self):
