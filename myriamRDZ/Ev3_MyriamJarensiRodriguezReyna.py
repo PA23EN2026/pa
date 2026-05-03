@@ -15,6 +15,14 @@ class Numeros:
             print(f"El numero {self.numero2} es mayor")
         elif self.numero3 > self.numero1 and self.numero3 > self.numero2:
             print(f"El numero {self.numero3} es mayor")
+            
+    def menor(self):
+        if self.numero1 < self.numero2 and self.numero1 < self.numero3:
+            print(f"El numero {self.numero1} es menor")
+        elif self.numero2 < self.numero1 and self.numero2 < self.numero3:
+            print(f"El numero {self.numero2} es menor")
+        elif self.numero3 < self.numero1 and self.numero3 < self.numero2:
+            print(f"El numero {self.numero3} es menor")
     
 
         
