@@ -48,18 +48,11 @@ class Mi_Clase:
 
     def num_iguales(self):
         if self.__num1 == self.__num2 == self.__num3:
-            return(f"Tres numeros iguales Numero1: {self.__num1}, Numero2: {self.__num2}, Numero3: {self.__num3} ")
-        elif self.__num1 == self.__num2:
-            return(f"Dos numeros iguales 1 y 2 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3}")
-        elif self.__num1 == self.__num3:
-            return (f"Dos numeros iguales 1 y 3 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3} ")
-        elif self.__num2 == self.__num3:
-            return (f"Dos numeros iguales 2 y 3 \nNumero1: {self.__num1}, \nNumero2: {self.__num2}, \nNumero3: {self.__num3} ")
+            return True
         else:
-            return "Ningun numero es igual"
+            return False
 
 
 
     def concatenar(self):
-        pass
-    
+        return (f"{self.__num1}{self.__num2}{self.__num3}")
