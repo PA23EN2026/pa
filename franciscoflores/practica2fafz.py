@@ -35,3 +35,9 @@ n2 = int(input("Ingresa el segundo número: "))
 n3 = int(input("Ingresa el tercer número: "))
 
 objeto = Mi_Clase(n1, n2, n3)
+
+print("Suma:", objeto.sumar())
+print("Mayor:", objeto.mayor())
+print("Menor:", objeto.menor())
+print("Iguales:", objeto.iguales())
+print("Concatenar:", objeto.concatenar())
