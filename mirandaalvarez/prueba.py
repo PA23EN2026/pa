@@ -27,4 +27,12 @@ print("Menor:",prueba.menor())
 print("Son iguales?:",prueba.iguales())
 print("Concatenación:",prueba.concatenar())
 
+prueba2=Mi_Clase(9,10,9)
+
+print("Segunda prueba")
+print("Suma:",prueba2.sumar())
+print("Mayor:",prueba2.mayor())
+print("Menor:",prueba2.menor())
+print("Son iguales?:",prueba2.iguales())
+print("Concatenación:",prueba2.concatenar())
 
