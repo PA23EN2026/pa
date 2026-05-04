@@ -4,6 +4,9 @@ Class Mi_Clase:
         self.__num2 = num2
         self.__num3 = num3
         
-        
+
     def sumar(self):
         return self._num1 + self.num2 + self._num3
+
+    def mayor(self):
+        return max(self._num1, self.num2, self._num3)
