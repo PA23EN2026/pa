@@ -16,3 +16,6 @@ Class Mi_Clase:
 
     def iguales(self):
         return self._num1 == self.num2 == self._num3
+
+    def concatenar(self):
+        return str(self._num1) + str(self.num2) + str(self._num3)
