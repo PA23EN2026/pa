@@ -1,4 +1,4 @@
-Class Mi_Clase:
+class Mi_Clase:
     def __init__(self, num1, num2, num3):
         self.__num1 = num1
         self.__num2 = num2
@@ -6,16 +6,25 @@ Class Mi_Clase:
         
 
     def sumar(self):
-        return self._num1 + self.num2 + self._num3
+        return self.__num1 + self.__num2 + self.__num3
 
     def mayor(self):
-        return max(self._num1, self.num2, self._num3)
+        return max(self.__num1, self.__num2, self.__num3)
 
     def menor(self):
-        return min(self._num1, self.num2, self._num3)
+        return min(self.__num1, self.__num2, self.__num3)
 
     def iguales(self):
-        return self._num1 == self.num2 == self._num3
+        return self.__num1 == self.__num2 == self.__num3
 
     def concatenar(self):
-        return str(self._num1) + str(self.num2) + str(self._num3)
+        return str(self.__num1) + str(self.__num2) + str(self.__num3)
+
+    
+obj = Mi_Clase(10, 20, 30)
+
+print("Suma:", obj.sumar())
+print("Mayor:", obj.mayor())
+print("Menor:", obj.menor())
+print("¿Son iguales?:", obj.iguales())
+print("Concatenación:", obj.concatenar())
