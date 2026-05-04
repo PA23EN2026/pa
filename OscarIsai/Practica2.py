@@ -3,3 +3,7 @@ Class Mi_Clase:
         self.__num1 = num1
         self.__num2 = num2
         self.__num3 = num3
+        
+        
+    def sumar(self):
+        return self._num1 + self.num2 + self._num3
