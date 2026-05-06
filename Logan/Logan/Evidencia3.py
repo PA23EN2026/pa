@@ -4,3 +4,8 @@ class Mi_Clase:
         self.__num1 = num1
         self.__num2 = num2
         self.__num3 = num3
+    def sumar(self):
+        total = 0
+        for n in (self.__num1, self.__num2, self.__num3):
+            total += n
+        return total
