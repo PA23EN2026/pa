@@ -27,3 +27,5 @@ class Mi_Clase:
         if self.__num1 == self.__num2 and self.__num2 == self.__num3:
             return True
         return False
+    def concatenar(self):
+        return f"{self.__num1}-{self.__num2}-{self.__num3}"
