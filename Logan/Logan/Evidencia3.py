@@ -15,17 +15,30 @@ class Mi_Clase:
             self.mayor = self.__num2
         if self.__num3 > self.mayor:
             self.mayor = self.__num3
+        return self.mayor
 
     def menor(self):
-        menor = self.__num1
-        if self.__num2 < menor:
-            menor = self.__num2
-        if self.__num3 < menor:
-            menor = self.__num3
-    
+        self.menor = self.__num1
+        if self.__num2 < self.menor:
+            self.menor = self.__num2
+        if self.__num3 < self.menor:
+            self.menor = self.__num3
+        return self.menor
+
     def iguales(self):
         if self.__num1 == self.__num2 and self.__num2 == self.__num3:
             return True
         return False
+    
     def concatenar(self):
         return f"{self.__num1}-{self.__num2}-{self.__num3}"
+    
+# Creacion del objeto
+obj = Mi_Clase(5, 10, 5)
+
+# Probar métodos
+print("Suma:", obj.sumar())
+print("Mayor:", obj.mayor())
+print("Menor:", obj.menor())
+print("¿Son iguales?:", obj.iguales())
+print("Concatenación:", obj.concatenar())
