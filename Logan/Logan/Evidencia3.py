@@ -10,8 +10,8 @@ class Mi_Clase:
             total += n
         return total
     def mayor(self):
-        mayor = self.__num1  
-        if self.__num2 > mayor:
-            mayor = self.__num2
-        if self.__num3 > mayor:
-            mayor = self.__num3
+        self.mayor = self.__num1  
+        if self.__num2 > self.mayor:
+            self.mayor = self.__num2
+        if self.__num3 > self.mayor:
+            self.mayor = self.__num3
